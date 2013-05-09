@@ -40,18 +40,18 @@ body
 #header{width:100%; height:150px; background:url(../images/banner.jpg) no-repeat; margin-top:50px; position:relative}
 .name_cty{
 	float: left;
-    font-family: times new roman;
-    font-size: 40px;
-    //height: 25px;
-    margin-left: 280px;
-    margin-top: 40px;
+   
+   	height: 40px;
+    margin-left: 275px;
+    margin-top:30px;
     text-shadow: 0 1px 1px white;
-    //width: 400px;	
+    width: 410px;	
 }
-.menu_top{width:700px; height:50px; //background:#9F6; float:left;
-	margin-left:280px; margin-top:20px
+.menu_top{width:700px; height:25px; //background:#9F6; float:left;
+	margin-left:280px; 
+	position:absolute; bottom:20px;
 }
-ul.ul_menu_top{margin-top:20px}
+ul.ul_menu_top{//margin-top:20px}
 ul.ul_menu_top li{padding:5px 25px; float:left; position:relative}
 ul.ul_menu_top li.menu_top_first{padding-left:0px !important}
 ul.ul_menu_top li a{color:white; font-size:25px; text-decoration:none}
@@ -63,19 +63,26 @@ ul.child_top_menu{
 	display:none; position: absolute; top:30px;
 	padding:5px 0px; width:150px;
 	background:#CD0D0D; opacity:0.8; border:1px solid #ccc;
-	z-index:10;
+	z-index:100;
 }
 ul.ul_menu_top li:hover ul{display:block}
 
 
 
 
-#logo{width:225px; height:225px; //background:#0F3; position:absolute; top:-40px; left:35px;}
+#logo{
+	height: 235px;
+    left: 30px;
+    position: absolute;
+    text-align: center;
+    top: -40px;
+    width: 235px;	
+}
 #logo img{width:225px; height:225px;}
 #con_left{width:270px; height:480px; background:url(../images/bg_left.jpg) center; float:left; margin-top:10px}
 ul.menu_left{margin-top:35px;}
 ul.menu_left li.parent_left_menu{
-	width:275px; height:55px; background:url(../images/bg_menu_left.png);
+	width:275px; height:55px; background:url(../images/bg_menu_left.png) center no-repeat;
 	margin-left:-5px; margin-top:5px;
 	position:relative;
 }
@@ -90,7 +97,7 @@ ul.menu_left p.name_parent_menu{
 ul.menu_left li ul.child_left_menu{
 	display:none; position:absolute; left:275px; top:0px;
 	background:#CD0D0D; opacity:0.8; border:1px solid #ccc;
-	width:200px; z-index:10;
+	width:200px; z-index:100;
 }
 ul.child_left_menu li{padding:10px}
 ul.menu_left li:hover ul{display:block}

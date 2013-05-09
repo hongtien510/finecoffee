@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/scroll.css" />
 <link rel="stylesheet" type="text/css" href="css/jscrollpane.css" />
 
-<script type="text/javascript" src="js/jquery-1.6.4.mn.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/scroll.js"></script>

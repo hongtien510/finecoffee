@@ -3,10 +3,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link type="text/css" href="css/style.css" rel="stylesheet"/>
+<link type="text/css" href="css/nivo-slider_bn.css" rel="stylesheet"/>
+<link type="text/css" href="css/style-nivo-slider_bn.css" rel="stylesheet"/>
 
-<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"/></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack_bn.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider_bn').nivoSlider_bn();
+    });
+    </script>
+    
+   
 <script type="text/javascript" src="js/main.js"></script>
-
 <title>Untitled Document</title>
 </head>
 
@@ -14,9 +23,11 @@
 <div id="container">
     <div id="header">
     	<div id="logo">
-        	<a href=""><img src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
+        	<a href=""><img class="img_logo" src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
         </div>
-        <div class="name_cty">ORIGINAL COFFEE</div>
+        <div class="name_cty">
+        	<img class="img_name_cty" src="images/ten cong ty.png" title="ORIGINAL COFFEE"/>
+        </div>
         <div class="menu_top">
         	<ul class="ul_menu_top">
             	<li class="menu_top_first">
@@ -42,16 +53,16 @@
     <div id="content">
         <div id="con_left">
         	<ul class="menu_left">
-            	<li class="parent_left_menu">
-                	<a href=""><p class="name_parent_menu">MENU</p></a>
+            	<li class="parent_left_menu li_lmenu_menu">
+                	<a class="" href=""><p class="name_parent_menu">MENU</p></a>
                 	<ul class="child_left_menu">
                     	<li><a href="">TAKE AWAY</a></li>
                         <li><a href="">TAKE AWAY</a></li>
                         <li><a href="">TAKE AWAY</a></li>
                     </ul>
                 </li>
-                <li class="parent_left_menu"><a href=""><p class="name_parent_menu">TAKE AWAY</p></a></li>
-               	<li class="parent_left_menu"><a href=""><p class="name_parent_menu">FOLLOW US ON FACEBOOK</p></a></li>
+                <li class="parent_left_menu li_lmenu_take"><a href=""><p class="lmenu_take name_parent_menu">TAKE AWAY</p></a></li>
+               	<li class="parent_left_menu li_lmenu_face"><a href=""><p class="lmenu_face name_parent_menu">FOLLOW US ON FACEBOOK</p></a></li>
             </ul>
             <div class="facebook">
                     <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FAgencySocialMediaMarketing&amp;width=235&amp;height=235&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color=%23fff&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:235px; height:235px;" allowTransparency="true"></iframe>
@@ -59,7 +70,17 @@
             </div>
         </div>
         <div id="con_right">
+        <!--
         	<img class="slide" src="images/slide/h1.JPG" alt="" title=""/>
+            
+        -->
+        <div id="slider_bn" class="nivoSlider_bn">
+					<img src="images/slide/h1.jpg" alt="" />
+					<img src="images/slide/h2.jpg" alt=""/>
+					<img src="images/slide/h3.jpg" alt="" />
+					<img src="images/slide/h4.jpg" alt=""/>
+                    <img src="images/slide/h5.jpg" alt=""/>
+				</div>
         </div>
     </div>
 </div>
