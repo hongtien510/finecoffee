@@ -20,9 +20,11 @@
 <div id="container">
     <div id="header">
     	<div id="logo">
-        	<a href=""><img src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
+        	<a href=""><img class="img_logo" src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
         </div>
-        <div class="name_cty">ORIGINAL COFFEE</div>
+        <div class="name_cty">
+        	<img class="img_name_cty" src="images/ten cong ty.png" title="ORIGINAL COFFEE"/>
+        </div>
         <div class="menu_top">
         	<ul class="ul_menu_top">
             	<li class="menu_top_first">
@@ -69,21 +71,39 @@
             	<div class="content_contact">
                 	<table width="100%">
                     	<tr>
-                        	<td width="11%" height="73" align="right"><img src="images/ico_diachi.png" alt="Địa chỉ: "/></td>
+                        	<td width="11%" height="100" align="right"><img src="images/ico_diachi.png" alt="Địa chỉ: "/></td>
                             <td width="89%">
-                            	<P class="text_contact">ĐỊA CHỈ : SAMPLE TEXT HEAR</P>
+                            	<P class="text_contact">CTY TNHH MỘT THÀNH VIÊN SẢN XUẤT THƯƠNG MẠI DỊCH VỤ CAFE TỐT</P>
                             </td>
                         </tr>
                         <tr>
-                        	<td height="68" align="right"><img src="images/ico_dienthoai.png" alt="Điện thoại: "/></td>
+                        	<td height="80" align="right"><img src="images/ico_dienthoai.png" alt="Điện thoại: "/></td>
                             <td>
-                            	<P class="text_contact">ĐIỆN THOẠI : SAMPLE TEXT HEAR</P>
+                            	<P class="text_contact">ĐỊA CHỈ : 281/39/9 Lê Văn Sỹ, P.1, Q.Tân Bình, HCM</P>
                            	</td>
                         </tr>
                         <tr>
-                        	<td height="81" align="right"><img src="images/ico_email.png" alt="Email: "/></td>
+                        	<td height="30" align="right"><img src="images/ico_dienthoai.png" alt="Điện thoại: "/></td>
                             <td>
-                            	<P class="text_contact">EMAIL : SAMPLE TEXT HEAR</P>
+                            	<P class="text_contact">ĐIỆN THOẠI : 0949 968 938</P>
+                           	</td>
+                        </tr>
+                        <tr>
+                        	<td height="30" align="right"><img src="images/ico_email.png" alt="Email: "/></td>
+                            <td>
+                            	<P class="text_contact">EMAIL : hongtien510@gmail.com</P>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td height="30" align="right"><img src="images/ico_email.png" alt="Email: "/></td>
+                            <td>
+                            	<P class="text_contact">YAHOO : tien.happiness</P>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td height="30" align="right"><img src="images/ico_email.png" alt="Email: "/></td>
+                            <td>
+                            	<P class="text_contact">SKYPE : hongtien510</P>
                             </td>
                         </tr>
                     </table>
