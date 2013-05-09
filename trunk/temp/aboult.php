@@ -20,9 +20,11 @@
 <div id="container">
     <div id="header">
     	<div id="logo">
-        	<a href=""><img src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
+        	<a href=""><img class="img_logo" src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
         </div>
-        <div class="name_cty">ORIGINAL COFFEE</div>
+        <div class="name_cty">
+        	<img class="img_name_cty" src="images/ten cong ty.png" title="ORIGINAL COFFEE"/>
+        </div>
         <div class="menu_top">
         	<ul class="ul_menu_top">
             	<li class="menu_top_first">

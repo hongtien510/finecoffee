@@ -20,9 +20,11 @@
 <div id="container">
     <div id="header">
     	<div id="logo">
-        	<a href=""><img src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
+        	<a href=""><img class="img_logo" src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
         </div>
-        <div class="name_cty">ORIGINAL COFFEE</div>
+        <div class="name_cty">
+        	<img class="img_name_cty" src="images/ten cong ty.png" title="ORIGINAL COFFEE"/>
+        </div>
         <div class="menu_top">
         	<ul class="ul_menu_top">
             	<li class="menu_top_first">
@@ -68,7 +70,7 @@
         	<div class="ctn_baiviet">
                 <div id="jp-container" class="jp-container content_baiviet">
             	<div>
-                
+                <h1 class="title_baiviet">Lần đầu tiên cầm trên tay, chiếc Vega Iron (A870) cho cảm giác</h1>
                 Lần đầu tiên cầm trên tay, chiếc <tag>Vega Iron</tag> (A870) cho cảm giác khác biệt hoàn toàn với những đối thủ cạnh tranh như Galaxy S4 hay HTC One. Sản phẩm này chỉ dùng vỏ nhựa, nhưng lại được đúc hẳn một phần viền màn hình bằng thép nguyên chất nhìn cực kỳ nổi bật. Máy có thiết kế dạng khối hộp, mỏng chỉ 8,8 mm và được tích hợp một đèn LED phát sáng ở cạnh phải, có khả năng phát ra nhiều màu khác nhau theo tùy chọn của người dùng.</p>
 <p class="pBody">Có thể nói, sản phẩm này sở hữu phong cách thiết kế rất mới lạ so với phần lớn các sản phẩm hiện đang có mặt trên thị trường. Phần viền màn hình của máy chỉ mỏng đúng 2,4 mm mỗi bên, bằng một nửa so với chiếc iPhone 5 của Apple và được xem là <tag>smartphone</tag> có viền mỏng nhất hiện nay. Pantech đã gọi công nghệ sản xuất <tag>smartphone</tag> này là zero bezel (không có viền màn hình). Cũng nhờ đó, tỷ số diện tích màn hình so với thân máy đạt 75,5%, chỉ thấp hơn so với chiếc Xperia ZL của Sony (75,8%).</p>Lần đầu tiên cầm trên tay, chiếc <tag>Vega Iron</tag> (A870) cho cảm giác khác biệt hoàn toàn với những đối thủ cạnh tranh như Galaxy S4 hay HTC One. Sản phẩm này chỉ dùng vỏ nhựa, nhưng lại được đúc hẳn một phần viền màn hình bằng thép nguyên chất nhìn cực kỳ nổi bật. Máy có thiết kế dạng khối hộp, mỏng chỉ 8,8 mm và được tích hợp một đèn LED phát sáng ở cạnh phải, có khả năng phát ra nhiều màu khác nhau theo tùy chọn của người dùng.</p>
 <p class="pBody">Có thể nói, sản phẩm này sở hữu phong cách thiết kế rất mới lạ so với phần lớn các sản phẩm hiện đang có mặt trên thị trường. Phần viền màn hình của máy chỉ mỏng đúng 2,4 mm mỗi bên, bằng một nửa so với chiếc iPhone 5 của Apple và được xem là <tag>smartphone</tag> có viền mỏng nhất hiện nay. Pantech đã gọi công nghệ sản xuất <tag>smartphone</tag> này là zero bezel (không có viền màn hình). Cũng nhờ đó, tỷ số diện tích màn hình so với thân máy đạt 75,5%, chỉ thấp hơn so với chiếc Xperia ZL của Sony (75,8%).</p>Lần đầu tiên cầm trên tay, chiếc <tag>Vega Iron</tag> (A870) cho cảm giác khác biệt hoàn toàn với những đối thủ cạnh tranh như Galaxy S4 hay HTC One. Sản phẩm này chỉ dùng vỏ nhựa, nhưng lại được đúc hẳn một phần viền màn hình bằng thép nguyên chất nhìn cực kỳ nổi bật. Máy có thiết kế dạng khối hộp, mỏng chỉ 8,8 mm và được tích hợp một đèn LED phát sáng ở cạnh phải, có khả năng phát ra nhiều màu khác nhau theo tùy chọn của người dùng.</p>

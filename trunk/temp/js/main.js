@@ -1,7 +1,13 @@
 $(document).ready(function(){
 
-	$("img.img_logo").mouseover(function() {$(".img_logo").animate({width:"230px", height:"230px"});});
-	$("img.img_logo").mouseout(function() {$(".img_logo").animate({width:"225px", height:"225px"});});
+	$("img.img_logo").mouseover(function() {
+		$(".img_logo").animate({width:"230px", height:"230px"});
+
+	});
+	$("img.img_logo").mouseout(function() {
+		$(".img_logo").animate({width:"225px", height:"225px"});
+
+	});
 	
 	
 	$("img.img_name_cty").mouseover(function() {
