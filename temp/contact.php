@@ -103,7 +103,11 @@
                         <tr>
                         	<td height="30" align="right"><img src="images/ico_email.png" alt="Email: "/></td>
                             <td>
-                            	<P class="text_contact">SKYPE : hongtien510</P>
+                            	<P class="text_contact">SKYPE : hongtien510
+									<a href="skype:hongtien510?chat">
+										<img width="18" height="18" alt="My status" style="border: medium none;"src="http://mystatus.skype.com/smallicon/hongtien510">
+									</a>
+								</P>
                             </td>
                         </tr>
                     </table>
