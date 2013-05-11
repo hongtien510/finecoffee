@@ -7,7 +7,7 @@
       <input onclick="window.location='?action=slide_Them'" type="button" name="button" id="button" value="Thêm Slider Hình" />
     </label></td>
     </tr>
-  <tr>
+  <tr class="tr_top">
     <th width="40" scope="col">STT</th>
     <th width="150" scope="col">Tên Slider Hình</th>
     <th width="179" scope="col">Mô tả</th>

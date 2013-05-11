@@ -30,27 +30,27 @@
 ?>
 <div class="BaiViet">
 <h2 class="title_admin"> Take Away </h2>
-<hr>
+
 		<form action="" method="post">
 		<center>
-		<table width="95%" border="0" cellpadding="0" cellspacing="0">
+		<table width="95%" border="1" cellpadding="0" cellspacing="0">
 		
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Alias:</th>
-			<td width="85%"><input class="input500" type="text" name="alias" id="alias" size="50" value="<?php echo $r['alias'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="alias" id="alias" size="50" value="<?php echo $r['alias'] ?>"></td>
 		  </tr>
 		
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metadescription" id="metadescription" cols="45" rows="5"><?php echo $r['metadescription'] ?></textarea>
+				<textarea class="textarea_style1" name="metadescription" id="metadescription" cols="45" rows="5"><?php echo $r['metadescription'] ?></textarea>
 			</td>
 		  </tr>
 		
 		 <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta keywords:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metakeywords" id="metakeywords" cols="45" rows="5"><?php echo $r['metakeywords'] ?></textarea>
+				<textarea class="textarea_style1" name="metakeywords" id="metakeywords" cols="45" rows="5"><?php echo $r['metakeywords'] ?></textarea>
 			</td>
 		 </tr>
 		   <tr>		
@@ -72,11 +72,7 @@
 			</center>
 			</td>
 		  </tr>
-		  <tr>		
-			<td>
-			&nbsp;
-			</td>
-		  </tr>
+		  
 		</table>
 		<center>
 		</form>

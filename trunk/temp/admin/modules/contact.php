@@ -39,59 +39,59 @@
 		}
 ?>
 <div class="BaiViet">
-<h2 class="title_admin"> ABOULT </h2>
-<hr>
+<h2 class="title_admin"> CONTACT </h2>
+
 		<form action="" method="post">
 		<center>
-		<table width="95%" border="0" cellpadding="0" cellspacing="0">
+		<table width="95%" border="1" cellpadding="0" cellspacing="0">
 		
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Alias:</th>
-			<td width="85%"><input class="input500" type="text" name="alias" id="alias" size="50" value="<?php echo $r['alias'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="alias" id="alias" size="50" value="<?php echo $r['alias'] ?>"></td>
 		  </tr>
 		
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metadescription" id="metadescription" cols="45" rows="5"><?php echo $r['metadescription'] ?></textarea>
+				<textarea class="textarea_style1" name="metadescription" id="metadescription" cols="45" rows="5"><?php echo $r['metadescription'] ?></textarea>
 			</td>
 		  </tr>
 		
 		 <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta keywords:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metakeywords" id="metakeywords" cols="45" rows="5"><?php echo $r['metakeywords'] ?></textarea>
+				<textarea class="textarea_style1" name="metakeywords" id="metakeywords" cols="45" rows="5"><?php echo $r['metakeywords'] ?></textarea>
 			</td>
 		 </tr>
 		 
 		   <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Tên công ty:</th>
-			<td width="85%"><input class="input500" type="text" name="tencongty" id="tencongty" size="50" value="<?php echo $r['tencongty'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="tencongty" id="tencongty" size="50" value="<?php echo $r['tencongty'] ?>"></td>
 		  </tr>
 		  
 		   <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Địa chỉ:</th>
-			<td width="85%"><input class="input500" type="text" name="diachi" id="diachi" size="50" value="<?php echo $r['diachi'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="diachi" id="diachi" size="50" value="<?php echo $r['diachi'] ?>"></td>
 		  </tr>
 		  
 		   <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Điện thoại:</th>
-			<td width="85%"><input class="input500" type="text" name="dienthoai" id="dienthoai" size="50" value="<?php echo $r['dienthoai'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="dienthoai" id="dienthoai" size="50" value="<?php echo $r['dienthoai'] ?>"></td>
 		  </tr>
 		  
 		    <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Email:</th>
-			<td width="85%"><input class="input500" type="text" name="email" id="email" size="50" value="<?php echo $r['email'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="email" id="email" size="50" value="<?php echo $r['email'] ?>"></td>
 		  </tr>
 		  
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Skype:</th>
-			<td width="85%"><input class="input500" type="text" name="skype" id="skype" size="50" value="<?php echo $r['skype'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="skype" id="skype" size="50" value="<?php echo $r['skype'] ?>"></td>
 		  </tr>
 		  
 		<tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Yahoo:</th>
-			<td width="85%"><input class="input500" type="text" name="yahoo" id="yahoo" size="50" value="<?php echo $r['yahoo'] ?>"></td>
+			<td width="85%"><input class="input_style1" type="text" name="yahoo" id="yahoo" size="50" value="<?php echo $r['yahoo'] ?>"></td>
 		  </tr>
 		  
 		  <tr>			
@@ -101,11 +101,7 @@
 			</center>
 			</td>
 		  </tr>
-		  <tr>		
-			<td>
-			&nbsp;
-			</td>
-		  </tr>
+		  
 		</table>
 		<center>
 		</form>
