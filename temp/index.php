@@ -1,3 +1,6 @@
+<?php
+	define('BASE_URL', 'http://localhost/finecoffee/temp/');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,7 +9,20 @@
 <link type="text/css" href="css/nivo-slider_bn.css" rel="stylesheet"/>
 <link type="text/css" href="css/style-nivo-slider_bn.css" rel="stylesheet"/>
 
+
+
+
+<link rel="stylesheet" type="text/css" href="css/scroll_aboult.css" />
+<link rel="stylesheet" type="text/css" href="css/jscrollpane.css" />
+
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+
+<!--
 <script type="text/javascript" src="js/jquery-1.4.3.min.js"/></script>
+-->
 <script type="text/javascript" src="js/jquery.nivo.slider.pack_bn.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
@@ -20,6 +36,10 @@
 </head>
 
 <body>
+<?php
+include('libs/db_connect.php'); 
+include('libs/hamhaydung.php'); 
+?>
 <div id="container">
     <div id="header">
     	<div id="logo">
@@ -31,10 +51,12 @@
         <div class="menu_top">
         	<ul class="ul_menu_top">
             	<li class="menu_top_first">
-					<a href="index.php">HOME</a>
+					<!-- <a href="index.php">HOME</a> -->
+					<a href="<?php echo BASE_URL?>trangchu.html">HOME</a>					
 				</li>
                 <li>
-					<a href="news.php">NEWS</a>
+						<!-- <a href="news.php">NEWS</a> -->
+					<a href="<?php echo BASE_URL?>news.html">NEWS</a>		
 				</li>
                 <li>
                 	<a href="">SERVICE</a>
@@ -45,8 +67,15 @@
 						<li><a href="">Service</a></li>
 					</ul>
                 </li>
-                <li><a href="aboult.php">ABOULT</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
+                <li>
+					<!--<a href="aboult.php">ABOULT</a>-->
+					<a href="<?php echo BASE_URL?>aboult.html">ABOULT</a>		
+				</li>
+                <li>
+					<!--<a href="contact.php">CONTACT</a>-->
+					<a href="<?php echo BASE_URL?>contact.html">CONTACT</a>	
+				</li>
+				
             </ul>
         </div>
     </div>
@@ -69,18 +98,21 @@
 
             </div>
         </div>
-        <div id="con_right">
-        <!--
-        	<img class="slide" src="images/slide/h1.JPG" alt="" title=""/>
-            
-        -->
-        <div id="slider_bn" class="nivoSlider_bn">
-					<img src="images/slide/h1.jpg" alt="" />
-					<img src="images/slide/h2.jpg" alt=""/>
-					<img src="images/slide/h3.jpg" alt="" />
-					<img src="images/slide/h4.jpg" alt=""/>
-                    <img src="images/slide/h5.jpg" alt=""/>
-				</div>
+        <div id="con_right">		
+			<?php	
+				$action=@$_GET['action'];
+				if($action=="")
+				{	
+					$action='trangchu';
+				}
+				$fileaction='modules/'.$action.'/'.$action.'.php';
+				if (file_exists($fileaction)) {			
+					require($fileaction);
+				}else{
+					include('modules/trangchu/trangchu.php');
+				}
+				?>
+       
         </div>
     </div>
 </div>

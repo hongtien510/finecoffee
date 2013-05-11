@@ -15,6 +15,7 @@
 			$dienthoai=$_POST['dienthoai'];
 			$email=$_POST['email'];
 			$skype=$_POST['skype'];
+			$yahoo=$_POST['yahoo'];
 		
 			if($alias==""){
 				echo '<script>alert("Bạn phải nhập alias")</script>';
@@ -28,6 +29,7 @@
 											 diachi='$diachi', 
 											 dienthoai='$dienthoai', 
 											 email='$email', 
+											 yahoo='$yahoo', 
 											 skype='$skype'
 											 where idcontact=1";
 	 
@@ -85,6 +87,11 @@
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Skype:</th>
 			<td width="85%"><input class="input500" type="text" name="skype" id="skype" size="50" value="<?php echo $r['skype'] ?>"></td>
+		  </tr>
+		  
+		<tr>
+			<th width="15%" height="24" align="right" valign="middle" scope="row">Yahoo:</th>
+			<td width="85%"><input class="input500" type="text" name="yahoo" id="yahoo" size="50" value="<?php echo $r['yahoo'] ?>"></td>
 		  </tr>
 		  
 		  <tr>			
