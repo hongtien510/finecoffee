@@ -7,7 +7,7 @@
       <input onclick="window.location='?action=news_them'" type="button" name="button" id="button" value="Thêm news" />
     </label></td>
     </tr>
-  <tr>
+  <tr class="tr_top">
     <th width="40" scope="col">STT</th>
     <th width="150" scope="col">Tên news</th>
 	<th width="100" scope="col">Hình đại diện</th>

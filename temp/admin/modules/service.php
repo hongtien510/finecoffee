@@ -7,7 +7,7 @@
       <input onclick="window.location='?action=service_them'" type="button" name="button" id="button" value="Thêm Service" />
     </label></td>
     </tr>
-  <tr>
+  <tr class="tr_top">
     <th width="40" scope="col">STT</th>
     <th width="150" scope="col">Tên Service</th>
 	<th width="100" scope="col">Menu Service</th>

@@ -39,21 +39,21 @@
 <table width="95%" border="1" cellspacing="0" cellpadding="0">
 
   <tr>
-    <th width="200" align="right" valign="middle" scope="row">Tiêu đề Slider: </th>
+    <th width="150" align="right" valign="middle" scope="row">Tiêu đề Slider: </th>
     <td width="494"><label>
-      <input class="input300" type="text" name="tieude" size="50" id="tieude" />
+      <input class="input_style1" type="text" name="tieude" size="50" id="tieude" />
     </label></td>
   </tr>
  
   <tr>
     <th align="right" valign="middle" scope="row">Mô tả ngắn:</th>
-    <td><textarea class="textarea100" name="noidung" style=" height: 115px;  width: 747px;" id="noidung"></textarea></td>
+    <td><textarea class="input_style1" name="noidung" style=" height: 115px;  width: 747px;" id="noidung"></textarea></td>
   </tr>
   
   <tr>
     <th align="right" valign="middle" scope="row">Hình Slide: </th>
     <td>
-	<input style="border:1px solid #cccccc" size="33" class="input300" type="file" name="tenhinh" id="tenhinh" /></td>
+	<input style="border:1px solid #cccccc" size="33" class="input_style1" type="file" name="tenhinh" id="tenhinh" /></td>
   </tr>
   
   <tr>

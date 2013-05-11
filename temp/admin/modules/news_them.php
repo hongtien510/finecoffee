@@ -62,44 +62,46 @@
     <th width="200" align="right" valign="middle" scope="row">Tiêu đề : </th>
     <td width="494">
 		<label>
-			<input class="input300" type="text" name="tenbaiviet" size="50" id="tenbaiviet" />
+			<input class="input_style1" type="text" name="tenbaiviet" size="50" id="tenbaiviet" />
 		</label>
 	</td>
   </tr>
 
   
-   <tr>
+	<tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Alias:</th>
-			<td width="85%"><input class="input500" type="text" name="alias" id="alias" size="50" value=""></td>
+			<td width="85%">
+				<input class="input_style1" type="text" name="alias" id="alias" size="50" value="">
+			</td>
 	</tr>
 		
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metadescription" id="metadescription" cols="45" rows="5"></textarea>
+				<textarea class="input_style1" name="metadescription" id="metadescription" cols="45" rows="5"></textarea>
 			</td>
 		  </tr>
 		
 		 <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta keywords:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metakeywords" id="metakeywords" cols="45" rows="5"></textarea>
+				<textarea class="textarea_style1" name="metakeywords" id="metakeywords" cols="45" rows="5"></textarea>
 			</td>
 		 </tr>
 
   <tr>
     <th align="right" valign="middle" scope="row">Mô tả ngắn :</th>
-    <td><textarea class="textarea700" style="width: 390px; height: 100px;" name="mota" id="mota"></textarea></td>
+    <td><textarea class="textarea_style1" name="mota" id="mota"></textarea></td>
   </tr>
 
   <tr>
     <th align="right" valign="middle" scope="row">Nội dung</th>
-    <td><textarea class="textarea500" name="noidung" id="noidung"></textarea></td>
+    <td><textarea class="textarea_style1" name="noidung" id="noidung"></textarea></td>
   </tr>  
    <tr>
     <th align="right" valign="middle" scope="row">Hình đại diện: </th>
     <td>
-	<input style="border:1px solid #cccccc" size="33" class="input300" type="file" name="urlhinh" id="urlhinh" /></td>
+	<input size="33" class="input_file" type="file" name="urlhinh" id="urlhinh" /></td>
   </tr>
   <tr>
     <th align="right" valign="middle" scope="row">Ẩn hiện :</th>
@@ -110,7 +112,7 @@
   
   <tr>
     <th align="right" valign="middle" scope="row">Thứ tự :</th>
-    <td><input class="input300" type="text" name="thutu" id="thutu" value=""/></td>
+    <td><input class="input_style1" type="text" name="thutu" id="thutu" value=""/></td>
   </tr>
   <tr>
     <th align="right" valign="middle" scope="row">&nbsp;</th>

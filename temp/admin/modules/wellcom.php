@@ -1,1 +1,1 @@
-Bảng điều kiển
+<div class="wellcome_admin">Bảng điều kiển</div>

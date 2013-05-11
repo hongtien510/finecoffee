@@ -49,7 +49,7 @@
     <th width="200" align="right" valign="middle" scope="row">Tên menu : </th>
     <td width="494">
 		<label>
-			<input class="input300" type="text" name="tenbaiviet" size="50" id="tenbaiviet" />
+			<input class="input_style1" type="text" name="tenbaiviet" size="50" id="tenbaiviet" />
 		</label>
 	</td>
   </tr>
@@ -58,27 +58,27 @@
     <th width="200" align="right" valign="middle" scope="row">Menu menu : </th>
     <td width="494">
 		<label>
-			<input class="input300" type="text" name="tenmenubaiviet" size="50" id="tenmenubaiviet" />
+			<input class="input_style1" type="text" name="tenmenubaiviet" size="50" id="tenmenubaiviet" />
 		</label>
 	</td>
   </tr>
   
    <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Alias:</th>
-			<td width="85%"><input class="input500" type="text" name="alias" id="alias" size="50" value=""></td>
+			<td width="85%"><input class="input_style1" type="text" name="alias" id="alias" size="50" value=""></td>
 	</tr>
 		
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metadescription" id="metadescription" cols="45" rows="5"></textarea>
+				<textarea class="textarea_style1" name="metadescription" id="metadescription" cols="45" rows="5"></textarea>
 			</td>
 		  </tr>
 		
 		 <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta keywords:</th>
 			<td width="85%">
-				<textarea class="textarea700" name="metakeywords" id="metakeywords" cols="45" rows="5"></textarea>
+				<textarea class="textarea_style1" name="metakeywords" id="metakeywords" cols="45" rows="5"></textarea>
 			</td>
 		 </tr>
 		<!-- 
@@ -89,7 +89,7 @@
   -->
   <tr>
     <th align="right" valign="middle" scope="row">Nội dung</th>
-    <td><textarea class="textarea500" name="noidung" id="noidung"></textarea></td>
+    <td><textarea class="textarea_style1" name="noidung" id="noidung"></textarea></td>
   </tr>  
   
   <tr>
@@ -101,7 +101,7 @@
   
   <tr>
     <th align="right" valign="middle" scope="row">Thứ tự :</th>
-    <td><input class="input300" type="text" name="thutu" id="thutu" value=""/></td>
+    <td><input class="input_style1" type="text" name="thutu" id="thutu" value=""/></td>
   </tr>
   <tr>
     <th align="right" valign="middle" scope="row">&nbsp;</th>

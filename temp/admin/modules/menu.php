@@ -7,7 +7,7 @@
       <input onclick="window.location='?action=menu_them'" type="button" name="button" id="button" value="Thêm menu" />
     </label></td>
     </tr>
-  <tr>
+  <tr class="tr_top">
     <th width="40" scope="col">STT</th>
     <th width="150" scope="col">Tên menu</th>
 	<th width="100" scope="col">Menu menu</th>
