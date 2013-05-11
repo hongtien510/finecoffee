@@ -1,29 +1,58 @@
 <?php
 	define('BASE_URL', 'http://localhost/finecoffee/temp/');
+	include('libs/db_connect.php'); 
+	include('libs/hamhaydung.php'); 
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link type="text/css" href="css/style.css" rel="stylesheet"/>
-<link type="text/css" href="css/nivo-slider_bn.css" rel="stylesheet"/>
-<link type="text/css" href="css/style-nivo-slider_bn.css" rel="stylesheet"/>
+
+<?php	
+	$detail=@$_GET['detail'];
+	$action=@$_GET['action'];
+		if($action=="")
+		{	
+			$action='trangchu';
+		}
+		
+	// if($detail)
+	// {	
+		
+	// }else{
+	
+	// }
+	
+	$fileheader='modules/'.$action.'/header.php';
+	if (file_exists($fileheader)) {			
+		require($fileheader);
+	}else{
+		include('modules/trangchu/header.php');
+	}
+	
+?>
+
+<link type="text/css" href="<?php echo BASE_URL?>css/style.css" rel="stylesheet"/>
+<link type="text/css" href="<?php echo BASE_URL?>css/nivo-slider_bn.css" rel="stylesheet"/>
+<link type="text/css" href="<?php echo BASE_URL?>css/style-nivo-slider_bn.css" rel="stylesheet"/>
+
+<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/scroll_aboult.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/jscrollpane.css" />
 
 
 
 
-<link rel="stylesheet" type="text/css" href="css/scroll_aboult.css" />
-<link rel="stylesheet" type="text/css" href="css/jscrollpane.css" />
 
-<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/scroll.js"></script>
 
 <!--
 <script type="text/javascript" src="js/jquery-1.4.3.min.js"/></script>
 -->
-<script type="text/javascript" src="js/jquery.nivo.slider.pack_bn.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.nivo.slider.pack_bn.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
         $('#slider_bn').nivoSlider_bn();
@@ -31,22 +60,19 @@
     </script>
     
    
-<script type="text/javascript" src="js/main.js"></script>
-<title>Untitled Document</title>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/main.js"></script>
+
 </head>
 
 <body>
-<?php
-include('libs/db_connect.php'); 
-include('libs/hamhaydung.php'); 
-?>
+
 <div id="container">
     <div id="header">
     	<div id="logo">
-        	<a href=""><img class="img_logo" src="images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
+        	<a href=""><img class="img_logo" src="<?php echo BASE_URL?>images/logo.png" alt="logo" title="Logo FineCoffee"/></a>
         </div>
         <div class="name_cty">
-        	<img class="img_name_cty" src="images/ten cong ty.png" title="ORIGINAL COFFEE"/>
+        	<img class="img_name_cty" src="<?php echo BASE_URL?>images/ten cong ty.png" title="ORIGINAL COFFEE"/>
         </div>
         <div class="menu_top">
         	<ul class="ul_menu_top">
@@ -59,12 +85,20 @@ include('libs/hamhaydung.php');
 					<a href="<?php echo BASE_URL?>news.html">NEWS</a>		
 				</li>
                 <li>
-                	<a href="">SERVICE</a>
+                	<a>SERVICE</a>
                 	<ul class="child_top_menu">
-						<li><a href="">Service</a></li>
-						<li><a href="">Service</a></li>
-						<li><a href="">Service</a></li>
-						<li><a href="">Service</a></li>
+					
+					<?php
+					$sql="select tenmenubaiviet, idbaiviet, alias from baiviet where loaibaiviet=2";
+					$query=mysql_query($sql);			
+
+					while($row=mysql_fetch_array($query))
+					{
+					?>
+					<li><a href="<?php echo BASE_URL?>service/<?php echo strtolower($row['alias'])?>-<?php echo $row['idbaiviet']?>.html"><?php echo $row['tenmenubaiviet']?></a></li>
+					<?php
+					}
+					?>		
 					</ul>
                 </li>
                 <li>
@@ -99,20 +133,14 @@ include('libs/hamhaydung.php');
             </div>
         </div>
         <div id="con_right">		
-			<?php	
-				$action=@$_GET['action'];
-				if($action=="")
-				{	
-					$action='trangchu';
-				}
+			<?php					
 				$fileaction='modules/'.$action.'/'.$action.'.php';
 				if (file_exists($fileaction)) {			
 					require($fileaction);
 				}else{
 					include('modules/trangchu/trangchu.php');
 				}
-				?>
-       
+			?>       
         </div>
     </div>
 </div>
