@@ -42,7 +42,7 @@ define('BASE_URL', 'http://localhost/finecoffee/temp/');
 						<li><a href="?action=service">Service</a></li>
 						<li><a href="?action=menu">Menu</a></li>
 						<li><a href="?action=aboult">Aboult</a></li>
-						<li><a href="?action=">Take Away</a></li>
+						<li><a href="?action=takeaway">Take Away</a></li>
 					</ul>
 				</li>
      
