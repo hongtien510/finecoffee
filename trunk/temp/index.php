@@ -10,19 +10,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <?php	
-	$detail=@$_GET['detail'];
 	$action=@$_GET['action'];
 		if($action=="")
 		{	
 			$action='trangchu';
 		}
-		
-	// if($detail)
-	// {	
-		
-	// }else{
-	
-	// }
 	
 	$fileheader='modules/'.$action.'/header.php';
 	if (file_exists($fileheader)) {			
@@ -89,7 +81,7 @@
                 	<ul class="child_top_menu">
 					
 					<?php
-					$sql="select tenmenubaiviet, idbaiviet, alias from baiviet where loaibaiviet=2";
+					$sql="select tenmenubaiviet, idbaiviet, alias from baiviet where loaibaiviet=2  AND anhien=1";
 					$query=mysql_query($sql);			
 
 					while($row=mysql_fetch_array($query))
@@ -117,11 +109,19 @@
         <div id="con_left">
         	<ul class="menu_left">
             	<li class="parent_left_menu li_lmenu_menu">
-                	<a class="" href=""><p class="name_parent_menu">MENU</p></a>
+                	<a class="" ><p class="name_parent_menu">MENU</p></a>
                 	<ul class="child_left_menu">
-                    	<li><a href="">TAKE AWAY</a></li>
-                        <li><a href="">TAKE AWAY</a></li>
-                        <li><a href="">TAKE AWAY</a></li>
+						<?php
+						$sql="select tenmenubaiviet, idbaiviet, alias from baiviet where loaibaiviet=3 AND anhien=1";
+						$query=mysql_query($sql);			
+
+						while($row=mysql_fetch_array($query))
+						{
+						?>
+						<li><a href="<?php echo BASE_URL?>menu/<?php echo strtolower($row['alias'])?>-<?php echo $row['idbaiviet']?>.html"><?php echo $row['tenmenubaiviet']?></a></li>
+						<?php
+						}
+						?>		
                     </ul>
                 </li>
                 <li class="parent_left_menu li_lmenu_take"><a href=""><p class="lmenu_take name_parent_menu">TAKE AWAY</p></a></li>
