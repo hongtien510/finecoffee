@@ -1,0 +1,6 @@
+tables baiviet:
+	loaibaiviet la
+	1 => about
+	2 => service
+	3 => Menu
+	4 => new
