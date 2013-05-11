@@ -4,3 +4,4 @@ tables baiviet:
 	2 => service
 	3 => Menu
 	4 => news
+	5 => takeaway
