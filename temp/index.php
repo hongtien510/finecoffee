@@ -29,7 +29,7 @@
 <link type="text/css" href="<?php echo BASE_URL?>css/nivo-slider_bn.css" rel="stylesheet"/>
 <link type="text/css" href="<?php echo BASE_URL?>css/style-nivo-slider_bn.css" rel="stylesheet"/>
 
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/scroll_aboult.css" />
+
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/jscrollpane.css" />
 
 
