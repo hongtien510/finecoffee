@@ -4,5 +4,6 @@ RewriteRule ^([^/\.]+)\.html index.php?action=$1&&%{QUERY_STRING}  [L]
 
 RewriteRule service/([a-zA-Z0-9_-]+)-([0-9]*).html service.html?idbaiviet=$2 [L]
 RewriteRule menu/([a-zA-Z0-9_-]+)-([0-9]*).html menu.html?idbaiviet=$2 [L]
+RewriteRule news/([a-zA-Z0-9_-]+)-([0-9]*).html news.html?idbaiviet=$2 [L]
 
 #RewriteRule san-pham/([a-zA-Z0-9_-]+)-([0-9]*).html sanpham.html?idsp=$2 [L]
