@@ -124,7 +124,7 @@
 						?>		
                     </ul>
                 </li>
-                <li class="parent_left_menu li_lmenu_take"><a href=""><p class="lmenu_take name_parent_menu">TAKE AWAY</p></a></li>
+                <li class="parent_left_menu li_lmenu_take"><a href="<?php echo BASE_URL?>takeaway.html"><p class="lmenu_take name_parent_menu">TAKE AWAY</p></a></li>
                	<li class="parent_left_menu li_lmenu_face"><a href=""><p class="lmenu_face name_parent_menu">FOLLOW US ON FACEBOOK</p></a></li>
             </ul>
             <div class="facebook">
