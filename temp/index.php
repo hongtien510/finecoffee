@@ -27,13 +27,14 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/jscrollpane.css" />
 
-
 <script type="text/javascript" src="<?php echo BASE_URL?>js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/main.js"></script>
+
 <script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL?>js/scroll.js"></script>
    
-<script type="text/javascript" src="<?php echo BASE_URL?>js/main.js"></script>
+
 
 <?php 
 	if($action=='trangchu'){
