@@ -7,25 +7,24 @@
 
 		if(isset($_POST['submit']))
 		{
-			$alias= preg_replace("/[^a-zA-Z0-9_\-]+/", "", $_POST['alias']);
+			//$alias= preg_replace("/[^a-zA-Z0-9_\-]+/", "", $_POST['alias']);
 			$metadescription=$_POST['metadescription'];
 			$metakeywords=$_POST['metakeywords'];
 			$noidung=$_POST['noidung'];
-		
+		/*
 			if($alias==""){
 				echo '<script>alert("Bạn phải nhập alias")</script>';
 			}
+		*/
+			
+			$sql2="update baiviet set metadescription='$metadescription', 
+									 metakeywords='$metakeywords', 
+									 noidung='$noidung' 
+									 where loaibaiviet=1";
 
-			else{				
-					$sql2="update baiviet set alias='$alias', 
-											 metadescription='$metadescription', 
-											 metakeywords='$metakeywords', 
-											 noidung='$noidung' 
-											 where loaibaiviet=1";
-	 
-					mysql_query($sql2);
-					echo '<script>alert("Cập nhật thành công");window.location="?action=wellcom";</script>';
-				}	
+			mysql_query($sql2);
+			echo '<script>alert("Cập nhật thành công");window.location="?action=aboult";</script>';
+					
 		}
 ?>
 <div class="BaiViet">
@@ -34,12 +33,12 @@
 		<form action="" method="post">
 		<center>
 		<table width="95%" border="1" cellpadding="0" cellspacing="0">
-		
+		<!--
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Alias:</th>
 			<td width="85%"><input class="input_style1" type="text" name="alias" id="alias" size="50" value="<?php echo $r['alias'] ?>"></td>
 		  </tr>
-		
+		-->
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">

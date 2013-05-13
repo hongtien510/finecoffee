@@ -7,7 +7,7 @@
 
 		if(isset($_POST['submit']))
 		{
-			$alias= preg_replace("/[^a-zA-Z0-9_\-]+/", "", $_POST['alias']);
+			//$alias= preg_replace("/[^a-zA-Z0-9_\-]+/", "", $_POST['alias']);
 			$metadescription=$_POST['metadescription'];
 			$metakeywords=$_POST['metakeywords'];
 			$tencongty=$_POST['tencongty'];
@@ -16,14 +16,12 @@
 			$email=$_POST['email'];
 			$skype=$_POST['skype'];
 			$yahoo=$_POST['yahoo'];
-		
+		/*
 			if($alias==""){
 				echo '<script>alert("Bạn phải nhập alias")</script>';
-			}
-
-			else{				
-					$sql2="update contact set alias='$alias', 
-											 metadescription='$metadescription', 
+		*/
+			
+					$sql2="update contact set metadescription='$metadescription', 
 											 metakeywords='$metakeywords', 
 											 tencongty='$tencongty', 
 											 diachi='$diachi', 
@@ -34,8 +32,7 @@
 											 where idcontact=1";
 	 
 					mysql_query($sql2);
-					echo '<script>alert("Cập nhật thành công");window.location="?action=wellcom";</script>';
-				}	
+					echo '<script>alert("Cập nhật thành công");window.location="?action=contact";</script>';
 		}
 ?>
 <div class="BaiViet">
@@ -44,12 +41,12 @@
 		<form action="" method="post">
 		<center>
 		<table width="95%" border="1" cellpadding="0" cellspacing="0">
-		
+		<!--
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Alias:</th>
 			<td width="85%"><input class="input_style1" type="text" name="alias" id="alias" size="50" value="<?php echo $r['alias'] ?>"></td>
 		  </tr>
-		
+		-->
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">

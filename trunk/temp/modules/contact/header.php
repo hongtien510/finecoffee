@@ -1,0 +1,1 @@
+<?php	$sql="select metakeywords,metadescription from contact";	$rs=mysql_query($sql);	$row=mysql_fetch_assoc($rs);?>	<title>FineCoffee - Liên hệ</title><meta content="<?php echo $row['metakeywords'] ?>" name="keywords"><meta content="<?php echo $row['metadescription'] ?>" name="description">
