@@ -15,7 +15,7 @@
                 	<img class="img_news_noibat" src="images/urlhinh/<?php echo $urlhinh ?>" alt="<?php echo $r_tintuc_f['tenbaiviet']; ?>" title="<?php echo $r_tintuc_f['tenbaiviet']; ?>"/>
                     <div class="content_news_noibat">
                     	<h1>
-                        	<a href="<?php echo BASE_URL?>news/<?php echo strtolower($r_tintuc_f['alias'])?>-<?php echo $r_tintuc_f['idbaiviet']?>.html"><?php echo cut_string(strip_tags($r_tintuc_f['tenbaiviet']),60)?></a>
+                        	<a href="<?php echo BASE_URL?>news/<?php echo strtolower($r_tintuc_f['alias'])?>-<?php echo $r_tintuc_f['idbaiviet']?>.html" title="<?php echo $r_tintuc_f['tenbaiviet'] ?>"><?php echo cut_string(strip_tags($r_tintuc_f['tenbaiviet']),60)?></a>
                         </h1>
                         <h2>
 						<?php echo $r_tintuc_f['mota']; ?>                      
@@ -36,7 +36,7 @@
 				    <div <?php if($i==3) echo "class='content_news_moinhat last'"; else echo "class='content_news_moinhat'"; ?>>
                     	<img class="img_news_moinhat" src="images/urlhinh/<?php echo $urlhinh ?>" alt="" title="" />
                         <h1>
-                        	<a href="<?php echo BASE_URL?>news/<?php echo strtolower($r_tintuc['alias'])?>-<?php echo $r_tintuc['idbaiviet']?>.html"><?php echo cut_string(strip_tags($r_tintuc['tenbaiviet']),100)?></a>
+                        	<a href="<?php echo BASE_URL?>news/<?php echo strtolower($r_tintuc['alias'])?>-<?php echo $r_tintuc['idbaiviet']?>.html" title="<?php echo $r_tintuc['tenbaiviet'] ?>"><?php echo cut_string(strip_tags($r_tintuc['tenbaiviet']),100)?></a>
                         </h1>
                     </div>
 					<!--
@@ -57,7 +57,7 @@
 				while($r_tintuc=mysql_fetch_assoc($rs_tintuc))
 				{
 				?>
-					<li><h2><a href="<?php echo BASE_URL?>news/<?php echo strtolower($r_tintuc['alias'])?>-<?php echo $r_tintuc['idbaiviet']?>.html"><?php echo cut_string(strip_tags($r_tintuc['tenbaiviet']),100)?></a></h2></li>
+					<li><h2><a href="<?php echo BASE_URL?>news/<?php echo strtolower($r_tintuc['alias'])?>-<?php echo $r_tintuc['idbaiviet']?>.html" title="<?php echo $r_tintuc['tenbaiviet']?>"><?php echo cut_string(strip_tags($r_tintuc['tenbaiviet']),100)?></a></h2></li>
 				<?php
 				}
 				?>
