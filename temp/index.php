@@ -22,38 +22,29 @@
 	}else{
 		include('modules/trangchu/header.php');
 	}
-	
 ?>
-
 <link type="text/css" href="<?php echo BASE_URL?>css/style.css" rel="stylesheet"/>
-<link type="text/css" href="<?php echo BASE_URL?>css/nivo-slider_bn.css" rel="stylesheet"/>
-<link type="text/css" href="<?php echo BASE_URL?>css/style-nivo-slider_bn.css" rel="stylesheet"/>
-
 
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/jscrollpane.css" />
 
 
-
-
-
-<script type="text/javascript" src="<?php echo BASE_URL?>js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL?>js/jquery-1.4.3.min.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL?>js/scroll.js"></script>
+   
+<script type="text/javascript" src="<?php echo BASE_URL?>js/main.js"></script>
 
-<!--
-<script type="text/javascript" src="js/jquery-1.4.3.min.js"/></script>
--->
+<?php 
+	if($action=='trangchu'){
+?>
 <script type="text/javascript" src="<?php echo BASE_URL?>js/jquery.nivo.slider.pack_bn.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
         $('#slider_bn').nivoSlider_bn();
     });
     </script>
-    
-   
-<script type="text/javascript" src="<?php echo BASE_URL?>js/main.js"></script>
-
+<?php } ?> 
 </head>
 
 <body>
