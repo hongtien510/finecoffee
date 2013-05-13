@@ -6,6 +6,7 @@
 <link type="text/css" href="css/nivo-slider_bn.css" rel="stylesheet"/>
 <link type="text/css" href="css/style-nivo-slider_bn.css" rel="stylesheet"/>
 
+
 <script type="text/javascript" src="js/jquery-1.4.3.min.js"/></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.pack_bn.js"></script>
     <script type="text/javascript">

@@ -78,7 +78,7 @@
 		  <tr>
 			<th width="15%" height="24" align="right" valign="middle" scope="row">Meta description:</th>
 			<td width="85%">
-				<textarea class="input_style1" name="metadescription" id="metadescription" cols="45" rows="5"></textarea>
+				<textarea class="textarea_style1" name="metadescription" id="metadescription" cols="45" rows="5"></textarea>
 			</td>
 		  </tr>
 		
