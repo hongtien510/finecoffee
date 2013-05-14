@@ -259,7 +259,7 @@ ul.ul_news_related a:hover{text-decoration:underline}
 }
 
 .share img{margin-right:10px}
-img.logo_fine_footer{width:500px}
+img.logo_fine_footer{width:450px}
 
 .clear{clear:both}
 
@@ -294,6 +294,12 @@ tr.tr_top th{text-align:center; font-size:18px; font-weight:bold;}
 }
 .input_style2{
 	height:25px; width:200px; 
+	border:1px solid #985110; 
+	margin-left: 5px;
+    padding: 0 3px;
+}
+.input_style3{
+	height:25px; width:700px; 
 	border:1px solid #985110; 
 	margin-left: 5px;
     padding: 0 3px;

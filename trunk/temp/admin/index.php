@@ -49,6 +49,7 @@ define('BASE_URL', 'http://localhost/finecoffee/temp/');
                 <li>
                 	<a href="">Chức năng khác</a>
                 	<ul class="child_top_menu">
+						<li><a href="?action=cauhinh">Cấu hình Web</a></li>
 						<li><a href="?action=doimatkhau">Đổi mật khẩu</a></li>
 						<li><a href="?action=slide">Hình Slide</a></li>
 						<li><a href="?action=contact">Contact</a></li>

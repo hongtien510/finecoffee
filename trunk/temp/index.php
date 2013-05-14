@@ -139,9 +139,9 @@
 <div class="clear"></div>
 <div class="top_footer"></div>
 <div id="footer">
-	<table width="100%" border="0">
+	<table width="660" border="0" style="float:left">
       <tr>
-        <td width="26%" height="130">
+        <td width="" height="130">
        	 	<div class="share">
                 <a title="Chia sẻ trên Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?s=100
                     &p[title]=Dịch vụ tăng like Fanpage chuyên nghiệp và chất lượng
@@ -164,15 +164,22 @@
                 "><img alt="LinkedIn" src="http://ishali.com.vn/public/default/images/linkdin_ico.png"/></a>
             </div>
         </td>
-        <td width="50%">
+        <td width="">
         	<img class="logo_fine_footer" src="images/logo_fine_footer.jpg" alt="Logo FineCoffee" title="Logo FineCoffee"/>
         </td>
-        <td width="24%">&nbsp;</td>
       </tr>
 </table>
 
-    
+<div class="thongtin_cty_footer">
+	<?php
+		$sql = "Select infocompany from cauhinh";
+		$rs=mysql_query($sql);
+		$r=mysql_fetch_assoc($rs);
+		echo $r['infocompany'];
+	?>
 </div>
+
+</div><!--End #footer-->
 
 
 
