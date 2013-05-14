@@ -263,12 +263,21 @@ h1.title_baiviet{
 }
 
 .share img{margin-right:10px}
-img.logo_fine_footer{width:500px}
+img.logo_fine_footer{width:400px; margin-top:-15px;}
 
 .clear{clear:both}
 
 
-
+.thongtin_cty_footer{
+	float: right;
+    height: 115px;
+    width: 340px;
+	color:white;
+	font-size:13px;
+	text-align:left;
+	padding-top:15px;
+	line-height:17px;
+}
 
 
 
