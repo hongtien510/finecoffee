@@ -59,8 +59,8 @@
   <tr>
     <th align="right" valign="middle" scope="row">Ẩn hiện :</th>
     <td><label>
-      <input name="anhien" type="checkbox" id="anhien" value="1" />
-    </label><i>(Chọn nếu muốn bài viết không hiển thị)</i></td>
+      <input name="anhien" checked type="checkbox" id="anhien" value="1" />
+    </label><i>(Chọn nếu muốn bài viết hiển thị)</i></td>
   </tr>
  
   <tr>
