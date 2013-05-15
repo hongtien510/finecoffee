@@ -4,7 +4,7 @@
 <table width="95%" border="1" cellspacing="0" cellpadding="0">
    <tr>
     <td colspan="8" align="right" valign="middle"><label>
-      <input onclick="window.location='?action=slide_Them'" type="button" name="button" id="button" value="Thêm Slider Hình" />
+      <input onclick="window.location='?action=slide_them'" type="button" name="button" id="button" value="Thêm Slider Hình" />
     </label></td>
     </tr>
   <tr class="tr_top">
