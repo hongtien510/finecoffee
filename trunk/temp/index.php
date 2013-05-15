@@ -165,7 +165,7 @@
             </div>
         </td>
         <td width="">
-        	<img class="logo_fine_footer" src="images/logo_fine_footer.jpg" alt="Logo FineCoffee" title="Logo FineCoffee"/>
+        	<img class="logo_fine_footer" src="<?php echo BASE_URL?>images/logo_fine_footer.jpg" alt="Logo FineCoffee" title="Logo FineCoffee"/>
         </td>
       </tr>
 </table>
