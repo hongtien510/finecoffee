@@ -16,7 +16,6 @@
 		{
 			$urlhinh=time().'_'.$file['name'];
 			move_uploaded_file($file['tmp_name'],"../images/urlhinh/".$urlhinh);
-			
 		}
 		
 		$sql = "INSERT INTO `baiviet` (
@@ -109,11 +108,12 @@
       <input name="anhien" type="checkbox" id="anhien" value="1" checked />
     </label><i>(Chọn hiển thị bài viết)</i></td>
   </tr>
-  
+  <!--
   <tr>
     <th align="right" valign="middle" scope="row">Thứ tự :</th>
     <td><input class="input_style1" type="text" name="thutu" id="thutu" value=""/></td>
   </tr>
+  -->
   <tr>
     <th align="right" valign="middle" scope="row">&nbsp;</th>
     <td><label>

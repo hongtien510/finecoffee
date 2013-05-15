@@ -91,11 +91,12 @@
       <input name="anhien" type="checkbox" id="anhien" value="1" <?php if($r1['anhien']==1)echo 'checked="checked"'; ?>/>
     </label><i>(Chọn nếu muốn bài viết hiển thị)</i></td>
   </tr>
-  
+  <!--
   <tr>
     <th align="right" valign="middle" scope="row">Thứ tự :</th>
     <td><input class="input_style1" type="text" name="thutu" id="thutu" value="<?php echo $r1['thutu'] ?>"/></td>
   </tr>
+  -->
   <tr>
     <th align="right" valign="middle" scope="row">&nbsp;</th>
     <td><label>
