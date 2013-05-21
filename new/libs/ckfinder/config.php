@@ -60,9 +60,8 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-//$baseUrl = 'D:/xampp/htdocs/finecoffee/new/images';
-	$baseUrl = 'http://localhost/finecoffee/new/';
-	$baseUrl = '/images/';
+
+	$baseUrl = '/finecoffee/new/images/upload/';
 
 /*
 $baseDir : the path to the local directory (in the server) which points to the

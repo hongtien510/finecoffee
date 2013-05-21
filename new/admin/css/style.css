@@ -124,7 +124,7 @@ ul.menu_left li:hover ul{display:block}
 }
 #con_admin{
 	width:1000px; 
-	/*height:480px; */
+	min-height:300px;
 	float:right; background:white; margin-top:10px; border-radius:7px;
 	box-shadow: 0 0px 3px black;
 }
@@ -258,8 +258,11 @@ ul.ul_news_related a:hover{text-decoration:underline}
 .top_footer{width:100%; height:25px; background:url(../images/bg_top_footer.png) repeat-x;
 	margin:0 auto; margin-top:10px; max-width:1500px
 }
+.ctn_footer{width:100%; height:130px; background:black;
+	margin:0 auto; max-width:1500px
+}
 #footer{
-	width:1000px; height:130px;
+	width:1000px; height:100%;
 	margin: 0 auto;
 	background:black;
 }

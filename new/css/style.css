@@ -88,9 +88,12 @@ ul.ul_menu_top li:hover ul{display:block}
 #con_left{width:270px; height:480px; background:black; float:left; margin-top:10px}
 ul.menu_left{margin-top:35px;}
 ul.menu_left li.parent_left_menu{
-	width:275px; height:55px; background:url(../images/bg_menu_left.png) center no-repeat;
-	margin-left:-5px; margin-top:5px;
-	position:relative;
+	background:url(../images/bg_menu_left.png) center no-repeat;
+	height: 55px;
+    margin-left: -3px;
+    margin-top: 5px;
+    position: relative;
+    width: 273px;
 }
 ul.menu_left a{color:#000; font-size:20px; text-decoration:none; //padding:10px 235px 10px 0px }
 ul.menu_left a:hover{text-decoration:underline}

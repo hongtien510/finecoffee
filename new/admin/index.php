@@ -88,6 +88,7 @@
 </div>
 <div class="clear"></div>
 <div class="top_footer"></div>
+<div class="ctn_footer">
 <div id="footer">
 	<table width="100%" border="0">
       <tr>
@@ -123,7 +124,7 @@
 
     
 </div>
-
+</div>
 
 
 </body>
